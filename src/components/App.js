@@ -1,6 +1,9 @@
 
 import React, { useEffect, useState } from "react";
 import './../styles/App.css';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
 
 const App = () => {
   const [city, setCity] = useState("");
